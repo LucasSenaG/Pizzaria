@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    background-image: url("/img/pizza.jpg");
+    background-position: 30% 45%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+body #image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #EEE;
+    text-transform: uppercase;
+}
+
+.navbar a:visited {
+    color: #EEE;
+}
+
+.navbar a:hover {
+    color: #A17A47;
+}
+
+body form .form-group {
+    padding: 5px;
+}
+
+body form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+#title {
+    margin-right: 350px;
+}
+
+body form #btn-submit {
+    text-align: center;
+    margin-top: 20px;
+}
+
+body form .icon-cadastro {
+    display: flex;
+    flex-direction: row;
+}
+
+body form button p {
+    margin-bottom: 0px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.row{
+    padding: 0;
+}
+
+.msg {
+    background-color: #D4EDDA;
+    color: #155724;
+    border: 1px solid #C3E6CB;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+#consulta {
+    display: flex;
+    flex-direction: row;
+}
+
+#form-cardapio label{
+   text-align: center; 
+   margin-left: 75px;
+}
+
+#card-confirma{
+    margin-top: 50px;
+}
+
+#botoes-pedido button{
+    padding: 7px 29px;
+}
+
+#itens-producao{
+    display: flex;
+    flex-direction: row;
+}
+
+#itens-producao-in{
+    margin: 7em 5px;
+}
